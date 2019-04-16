@@ -1,8 +1,8 @@
 REM This executes the following commands in powershell:
-REM set-winuserlanguagelist -languagelist en-us -force;
-REM $l = get-winuserlanguagelist;
-REM $l[0].inputmethodtips[0]="0409:00010409";
-REM set-winuserlanguagelist -languagelist $l -force;
+REM Set-WinUserLanguageList -LanguageList EN-US -Force;
+REM $l = Get-WinUserLanguageList;
+REM $l[0].InputMethodTips[0]="0409:00010409";
+REM Set-WinUserLanguageList -LanguageList $l -Force;
 REM
 REM These commands set the keyboard to dvorak.
 powershell.exe -encodedCommand UwBlAHQALQBXAGkAbgBVAHMAZQByAEwAYQBuAGcAdQBhAGcAZQBMAGkAcwB0ACAALQBMAGEAbgBnAHUAYQBnAGUATABpAHMAdAAgAEUATgAtAFUAUwAgAC0ARgBvAHIAYwBlADsAIAAkAGwAIAA9ACAARwBlAHQALQBXAGkAbgBVAHMAZQByAEwAYQBuAGcAdQBhAGcAZQBMAGkAcwB0ADsAIAAkAGwAWwAwAF0ALgBJAG4AcAB1AHQATQBlAHQAaABvAGQAVABpAHAAcwBbADAAXQA9ACIAMAA0ADAAOQA6ADAAMAAwADEAMAA0ADAAOQAiADsAUwBlAHQALQBXAGkAbgBVAHMAZQByAEwAYQBuAGcAdQBhAGcAZQBMAGkAcwB0ACAALQBMAGEAbgBnAHUAYQBnAGUATABpAHMAdAAgACQAbAAgAC0ARgBvAHIAYwBlADsA
